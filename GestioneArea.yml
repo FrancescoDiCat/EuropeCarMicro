@@ -1,0 +1,15 @@
+spring:
+    application:
+        name: GestioneArea
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        password: francescod!
+        url: jdbc:mysql://212.131.189.19:30016/francescod
+        username: francescod
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+    mvc:
+        pathmatch:
+            matching-strategy: ANT_PATH_MATCHER
